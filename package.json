@@ -2,11 +2,13 @@
   "name": "app.js",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://iitaellu.github.io/MEAN-STACK",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
-    "dev": "nodemon app"
+    "dev": "nodemon app",
+    "deploy": "gh-pages -d public"
   },
   "author": "",
   "license": "ISC",
