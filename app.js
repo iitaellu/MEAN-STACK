@@ -59,7 +59,7 @@ app.get("/", (req, res) => {
 })
 
 app.get('*'), (req,res) => {
-    res.sendFile(path.join(__dirname, 'piblic/index.html'));
+    res.sendFile(path.join(__dirname, 'public/index.html'));
 }
 
 // Start Server
